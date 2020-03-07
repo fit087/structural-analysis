@@ -1,0 +1,63 @@
+; TITULO 
+
+"exemplo"
+
+; NUMERO DE NOS, DE ELEMENTOS E DE TIPOS DE CARACTERÍSTICAS:
+; NNO    NEL   NTC
+   4      4    3
+
+;     NO    X     Y 
+
+      1     0.    0.
+      2	    5.    0.	 
+      3	    0.   3.5	 
+      4     5.   3.5
+
+
+; NUMERO DE NOS COM DESLOCAMENTO IMPEDIDO:
+
+   2
+
+;   NO  DESL.X   DESL.Y   ROT.Z
+
+     1     1       1       1
+     2     1       1       0
+
+; NUMERO DE NOS CARREGADOS:
+
+   1
+
+;   NO  FX      FY   MZ
+     3   25.    0.   17.5
+
+
+; TIPOS DE CARACTERÍSTICAS DOS ELEMENTOS:
+
+    1  3.0E+07	0.0625     3.26E-04
+    2  3.0E+07	0.09       2.7E-03
+    3  2.1E+08	5.07E-04     0.
+
+
+; NÚMERO DE ELEMENTOS DE PÓRTICO:
+
+  3
+
+; EL.  NO1  NO2   NC   FP   QX   QY
+   1    1    3     1    0.   0. -20.
+   2    3    4     2    0.   0. -35.
+   3    2    4     1    0.   0.  20.
+
+
+;NÚMERO DE ELEMENTOS DE TRELIÇA:
+
+  1
+
+;EL  NO1   NO2   NC     FP
+  4    1    4     3      0.
+  
+;NÚMERO DE ELEMENTOS COM LIBERAÇÃO LOCAL:
+
+  0
+
+;EL DX1 DY1 RZ1 DX2 DY2 RZ2
+
